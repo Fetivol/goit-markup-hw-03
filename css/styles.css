@@ -148,6 +148,8 @@ body {
   height: 56px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
   font-family: inherit; /* need it for inheritance from body part */
   color: var(--backgroun-color);
@@ -295,6 +297,8 @@ body {
 
 .button-portfolio {
   padding: 12px 24px;
+  border: 1px solid var(--footer-text-color);
+  border-radius: 4px;
 
   font-family: inherit; /*need it for inheritance from body part*/
   color: var(--text-color-1);
