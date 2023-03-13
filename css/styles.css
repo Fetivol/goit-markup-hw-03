@@ -216,10 +216,10 @@ body {
 
 .card-list {
   display: flex;
+  gap: 24px;
 }
 .card-list > .image-box {
-  flex-basis: calc((100% - 48) / 3);
-  margin-left: 24px;
+  width: calc((100% - 48) / 3);
 }
 .image-box:first-child {
   margin-left: 0px;
