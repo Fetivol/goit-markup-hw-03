@@ -28,8 +28,9 @@ button {
 }
 
 img {
-  weight: 100%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 :root {
@@ -60,7 +61,7 @@ body {
 }
 /* ----------------Header----------------- */
 .page-header {
-  padding: 28px 0px;
+  padding: 24px 0px;
   border-bottom: 1px solid var(--footer-text-color);
 }
 
@@ -220,9 +221,6 @@ body {
 }
 .card-list > .image-box {
   width: calc((100% - 48) / 3);
-}
-.image-box:first-child {
-  margin-left: 0px;
 }
 
 /* ---------------Section 4---------------- */
